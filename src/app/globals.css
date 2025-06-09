@@ -1,0 +1,65 @@
+/* Auth Forms */
+.form-container {
+  width: 100%;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #3554d1;
+  outline: none;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #d32f2f;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-blue-1 {
+  color: #3554d1;
+  text-decoration: none;
+}
+
+.text-blue-1:hover {
+  text-decoration: underline;
+}
