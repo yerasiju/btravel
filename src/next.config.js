@@ -25,9 +25,17 @@ const nextConfig = {
       },
     ],
   },
-  // Replace 'your-repo-name' with your actual GitHub repository name
-  basePath: process.env.NODE_ENV === "production" ? "/btravel" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/btravel/" : "",
+  // Настройка для разных платформ
+  basePath: process.env.VERCEL
+    ? ""
+    : process.env.NODE_ENV === "production"
+    ? "/btravel"
+    : "",
+  assetPrefix: process.env.VERCEL
+    ? ""
+    : process.env.NODE_ENV === "production"
+    ? "/btravel/"
+    : "",
 };
 
 module.exports = nextConfig;

@@ -4,9 +4,7 @@ const Address = () => {
       id: 1,
       colClass: "col-lg-3",
       title: "Address",
-      content: (
-        <>328 Queensberry Street, North Melbourne VIC 3051, Australia.</>
-      ),
+      content: <>Zhambyl Region. Taraz city. Pushkin 154</>,
     },
     {
       id: 2,
@@ -14,7 +12,7 @@ const Address = () => {
       title: "Toll Free Customer Care",
       content: (
         <>
-          <a href="tel:+4733378901">+47 333 78 901</a>
+          <a href="tel:+4733378901">+7 702 276 6797</a>
         </>
       ),
     },
@@ -25,7 +23,7 @@ const Address = () => {
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">hi@gotrip.com</a>
+          <a href="mailto:zholymbekerkebulan@gmail.com">b@btravel.com</a>
         </>
       ),
     },
